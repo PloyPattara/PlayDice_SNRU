@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Explicit
+    var sourceDices = ["Dice1","Dice2","Dice3","Dice4","Dice5","Dice6"]
+    
     @IBOutlet weak var firstDiceImageView: UIImageView!
     
     @IBOutlet weak var secondDiceImageView: UIImageView!
@@ -24,6 +27,8 @@ class ViewController: UIViewController {
 
     @IBAction func ramdomDiceButton(_ sender: UIButton) {
     print("You Click Ramdom")
+        
+
         
     } //ramdomDice
     
